@@ -1,0 +1,101 @@
+/*
+Express
+req res
+how to send the Resp
+port
+nodemon
+postman
+API
+status code
+web req (get post put dlt )
+
+nothing was permanent
+how to inject db
+1234567 => hide secret (HMAC SHA256)
+HOW WE CAN PROC ROUTES
+process.env
+4000 dotenv(everything credentials written inside) every beckend
+
+mongodb (ORM(obj relation mapper) ODM(obj document mapper))
+makes connection more better with  database
+mongoose is odm  makes connection w database easier
+moosgoose based upon mongodb
+mongoose insert in mongodb
+like express for nodejs
+js => react
+node => express
+mongodb => moongoose
+css => tailwind bootstrap
+
+internet(12345) =>   b logic(qwertyuiop) => mongodb(mongoose)
+
+FUNCTIONALITY
+ 1. create account => basic requirements (name email mobile pass)
+ 2. login => email and pass
+ 3. course buy => user id ,course id , price ,payment gateway
+
+ excell draw
+ //paid (sqldbm , )
+//miro(mindmapping) scheema design tool
+
+install
+npm init -y
+npm i express dotenv mongoose
+npm i -D nodemon
+index.js app.js
+model database middleware
+
+
+Code Part
+-npm init -y
+-req tools install (express dotenv mongoos)
+-dev (nodemon) npm i -D nodemon
+-started app
+-design schema fo user
+-From the user pov
+    -get all the information
+    -check for mandatoy field
+    -check email unique or not
+    -take care of pass
+    -success mssg or token
+
+//sunday
+GOAL
+-register a user (save in db)
+-login a user
+-allow him to access the dashboard but after login only
+
+
+info at register(fname lname email pass phone num)
+info to take(email pass)
+models-> mvc , mvm (separate files and reabable)
+
+model(structure)             controler(most time)                    config          routes      utils
+user(db)                     /register                              db connectn
+fname                1. collect info from frontend                            
+lname                   (req.body)                          
+email                2. validate-if all data exist                                                      
+pass                 3. check if user already exst                             
+token                 3.5 encrypt pass                            
+                      4.  save to db & send a key(token)
+
+   /login
+1. collect info from frontend take info
+2. validate (no info send note)
+3. check user eixt in db
+4.match the pass (pass is encrypt)
+5. craete key(token) for user and send(direct, cookie)
+
+/dashboard
+1.check if key exist-valid
+2. alloe him to access
+
+
+
+json web token to generate key
+
+
+
+
+
+*/
